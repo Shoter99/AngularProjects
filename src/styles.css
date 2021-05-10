@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    color: #fff;
+}
+.container{
+    border: 2px solid white;
+}
+.btn{
+    border: 2px solid white;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1em;
+    margin: .13em;
+
+}
+.btn:hover{
+    margin: 0;
+    opacity: .8;
+    cursor: pointer;
+    font-size: 1.2em;
+}
